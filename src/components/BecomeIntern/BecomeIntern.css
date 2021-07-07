@@ -1,0 +1,327 @@
+.first-become {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 3rem;
+  background-color: white;
+}
+
+.first-become .first-become-photo .image-button {
+  height: 36rem;
+  position: relative;
+  display: inline;
+}
+
+.first-become .first-become-photo .image-button .first-becomeintern {
+  height: 36rem;
+}
+
+.first-become .first-become-photo .image-button .first-become-button {
+  position: absolute;
+  background-color: #00aeff;
+  color: #ffffff;
+  font-size: 1.5rem;
+  height: 6rem;
+  width: 26.4rem;
+  padding: 0 3rem;
+  border: 0;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  bottom: 0;
+  right: 0;
+}
+
+.first-become .first-become-photo .second-becomeintern {
+  height: 27rem;
+}
+
+.first-become .first-become-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 9rem;
+  margin-bottom: 6rem;
+  width: 36%;
+}
+
+.first-become .first-become-text .first-become-heading {
+  font-size: 1.7rem;
+  color: #00AEFF;
+  text-align: center;
+}
+
+.first-become .first-become-text .first-become-header {
+  font-size: 2.4rem;
+  line-height: 0.2;
+}
+
+.first-become .first-become-text .first-become-paragraph {
+  font-size: 1.2rem;
+}
+
+.first-become .first-become-text .second-become-button {
+  background-color: #00aeff;
+  color: #ffffff;
+  font-size: 1.2rem;
+  height: 4rem;
+  padding: 0 3rem;
+  border: 0;
+  border-radius: 4px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.tracks {
+  background-color: #FAFAFA;
+  margin-top: -5rem;
+  padding-top: 7rem;
+}
+
+.tracks .track-heading {
+  text-align: center;
+  color: #084482;
+  padding: 3rem;
+  font-size: 2rem;
+}
+
+.tracks .track-p {
+  text-align: center;
+  font-size: 1.1rem;
+  width: 50%;
+  margin-left: 25%;
+  padding: 1.3rem;
+}
+
+.tracks .track-divs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 6rem;
+  margin-left: 0.5rem;
+  padding: 0 5rem 4rem 5rem;
+}
+
+.tracks .track-divs .learning-track-div {
+  background-color: #ffffff;
+  max-width: 267px;
+  margin: 0.2rem;
+  -webkit-box-shadow: 0px 3px 12px -1px rgba(28, 52, 84, 0.26), 0px 2px 4px -1px rgba(28, 55, 90, 0.16);
+          box-shadow: 0px 3px 12px -1px rgba(28, 52, 84, 0.26), 0px 2px 4px -1px rgba(28, 55, 90, 0.16);
+  text-align: center;
+  padding: 0.4rem;
+  border-radius: 4px;
+  height: 20rem;
+}
+
+.tracks .track-divs .learning-track-div img {
+  padding-top: 2rem;
+}
+
+.tracks .track-divs .learning-track-div .learning-track {
+  font-size: 20px;
+  color: #00aeff;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.tracks .track-divs .learning-track-div .learning-paragraph {
+  font-size: 0.9rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.last-become .first-last-become {
+  background-color: #084482;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 22rem;
+  padding-left: 8rem;
+  padding-right: 35rem;
+  padding-top: 7rem;
+  position: relative;
+}
+
+.last-become .second-last-become {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.last-become .second-last-become .second-last-become-paragraph {
+  width: 24rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+.last-become .second-last-become .third-becomeintern {
+  width: 27rem;
+  margin-top: -4rem;
+  z-index: 2;
+}
+
+.last-become .second-last-become .second-last-become-section {
+  height: 32rem;
+  width: 22rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 2rem;
+  margin-top: -16rem;
+  padding: 2rem;
+  z-index: 2;
+  color: #4f4f4f;
+  background-color: #FAFAFA;
+}
+
+.last-become .second-last-become .second-last-become-section .eighty-nine {
+  width: 12rem;
+  margin: auto;
+}
+
+.last-become .second-last-become .second-last-become-section .second-last-become-p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.last-become .second-last-become .second-last-become-section .second-last-become-para {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.last-become .second-last-become .second-last-become-section .latest-become {
+  background-color: #084482;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 3rem 2rem 3rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.last-become .second-last-become .second-last-become-section .latest-become .latest-become-text {
+  font-size: 1rem;
+  max-width: 80%;
+  text-align: left;
+}
+
+.last-become .third-last-become {
+  background-color: #FAFAFA;
+  margin: 1rem;
+  text-align: center;
+  padding: 6rem;
+}
+
+.last-become .third-last-become .third-last-become-heading {
+  font-size: 1.8rem;
+  line-height: 1.1em;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.last-become .third-last-become .third-last-become-paragraph {
+  font-size: 1.1rem;
+  margin: 1rem;
+  text-align: center;
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.last-become .third-last-become .last-become-button {
+  background-color: #00aeff;
+  color: #ffffff;
+  font-size: 1.2rem;
+  height: 3rem;
+  width: 7rem;
+  padding: 0 1.1rem;
+  border: 0;
+  border-radius: 4px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  margin: 2rem;
+}
+
+@media (max-width: 768px) {
+  .first-become {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 2em;
+    background-color: white;
+    width: 100%;
+  }
+  .image-button {
+    height: 6rem;
+    position: relative;
+    display: inline;
+    width: 80%;
+  }
+  .image-button .first-becomeintern {
+    height: 1.5rem;
+    width: 10rem;
+  }
+  .image-button .first-become-button {
+    position: absolute;
+    background-color: #00aeff;
+    color: #ffffff;
+    font-size: 0.3rem;
+    height: 0.1rem;
+    width: 1rem;
+    padding: 0 0.2rem;
+    border: 0;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+    bottom: 0;
+    right: 0;
+  }
+  .second-becomeintern {
+    padding-top: 6rem;
+    height: 0.08rem;
+    width: 5rem;
+  }
+}
+/*# sourceMappingURL=BecomeIntern.css.map */

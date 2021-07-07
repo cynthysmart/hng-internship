@@ -1,0 +1,134 @@
+.general-footer .first-footer {
+  background-color: white;
+  border-top: 1px solid #788996;
+  padding: 3rem;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.general-footer .first-footer .logo {
+  width: 20%;
+}
+
+.general-footer .sub-first-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+  padding: 2rem;
+}
+
+.general-footer .sub-first-footer .footer-btn {
+  background-color: #00aeff;
+  font-size: 18px;
+  height: 50px;
+  padding: 0 2rem;
+  border: 0;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+}
+
+.general-footer .second-footer {
+  background-color: #788996;
+  color: #fff;
+  padding: 3rem 4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .general-footer .first-footer {
+    padding: 1rem;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .general-footer .first-footer .logo {
+    width: 40%;
+  }
+  .general-footer .sub-first-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .general-footer .sub-first-footer .footer-address, .general-footer .sub-first-footer .footer-contact, .general-footer .sub-first-footer .footer-btn {
+    margin: 0.5rem;
+  }
+  .general-footer .sub-first-footer .footer-btn {
+    background-color: #00aeff;
+    font-size: 13px;
+    height: 40px;
+    padding: 0 1rem;
+    border: 0;
+    margin-left: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 4px;
+    color: white;
+  }
+  .general-footer .second-footer {
+    background-color: #788996;
+    color: #fff;
+    padding: 1rem 2rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: 13px;
+  }
+  .general-footer .second-footer .twitter-logo {
+    width: 1.5rem;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=GeneralFooter.css.map */

@@ -1,0 +1,226 @@
+.about {
+  color: #333333;
+  font-family: Lato;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about .about-one {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c6e0eb), to(white));
+  background-image: linear-gradient(to bottom, #c6e0eb, white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about .about-one .about-one-text {
+  padding: 4rem;
+  padding-left: 6rem;
+  text-align: left;
+  width: 55%;
+}
+
+.about .about-one .about-one-text .about-one-text-heading {
+  color: #084482;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.about .about-one .about-one-text .about-one-text-head {
+  color: #084482;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+.about .about-one .about-one-text .about-one-text-paragraph {
+  font-size: 1.01rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+}
+
+.about .about-one .about-one-image {
+  margin-top: 15rem;
+}
+
+.about .build-about {
+  background: url("../images/aboutimages/abttwo.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3rem;
+}
+
+.about .build-about .build-about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 45%;
+}
+
+.about .build-about .build-about-text .build-about-text-head {
+  color: #084482;
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about .build-about .build-about-text .build-about-text-paragraph {
+  color: white;
+  font-size: 1.05rem;
+  line-height: 1.3rem;
+  font-weight: 200;
+  margin: 0.5rem 0;
+}
+
+.about .build-about .build-about-image-one {
+  width: 14rem;
+  height: 13rem;
+  border-radius: 50%;
+  background-color: #1593d0;
+  margin: 1rem;
+}
+
+.about .build-about .build-about-image-two {
+  width: 14rem;
+  height: 13rem;
+  border-radius: 50%;
+  background-color: #97D1FC;
+}
+
+.about .build-about .build-about-image-three {
+  width: 16rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: #E4F0FA;
+  margin-top: 8rem;
+}
+
+.about .build-about .build-image {
+  padding: 3rem 3rem 0 3rem;
+  vertical-align: middle;
+}
+
+.about .build-about .build-p {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.about .about-work {
+  padding: 4rem;
+}
+
+.about .about-work .about-work-paragraph {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.about .about-work-heading {
+  color: #084482;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 2rem;
+}
+
+.about .about-divs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 6rem;
+  margin-left: 0.5rem;
+}
+
+.about .about-divs .about-div-item {
+  background-color: #ffffff;
+  max-width: 267px;
+  margin: 10px;
+  -webkit-box-shadow: 0px 3px 12px -1px rgba(28, 52, 84, 0.26), 0px 2px 4px -1px rgba(28, 55, 90, 0.16);
+          box-shadow: 0px 3px 12px -1px rgba(28, 52, 84, 0.26), 0px 2px 4px -1px rgba(28, 55, 90, 0.16);
+  text-align: center;
+  padding: 0.6rem;
+  border-radius: 4px;
+  height: 20rem;
+}
+
+.about .about-divs .one, .about .about-divs .two {
+  background: rgba(0, 174, 255, 0.5);
+}
+
+.about .about-divs .three {
+  background: #00aeff;
+}
+
+.about .about-divs .four {
+  background: #00aeff;
+}
+
+.about .about-divs .five {
+  background: #00aeff;
+}
+
+.about .about-divs .about-paragraph {
+  font-weight: 400;
+  max-width: 82%;
+  margin-top: 3rem;
+  color: #084482;
+  font-size: 16px;
+}
+
+.about .about-divs .last-paragraph {
+  font-weight: 400;
+  max-width: 82%;
+  margin-top: 3rem;
+  color: white;
+  font-size: 16px;
+}
+
+.about .scale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+}
+
+.about .scale .scale-text {
+  width: 50%;
+}
+
+.about .scale .scale-text .scale-heading {
+  text-align: center;
+  color: #084482;
+}
+
+.about .scale .scale-text .scale-heading .scale-heading:hover {
+  color: rgba(0, 174, 255, 0.5);
+}
+/*# sourceMappingURL=About.css.map */

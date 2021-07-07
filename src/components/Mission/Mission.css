@@ -1,0 +1,114 @@
+.support-mission {
+  background-color: white;
+  height: 17rem;
+}
+
+.support-mission .support-mission-heading {
+  color: #084482;
+  padding: 1rem;
+  margin-top: 7rem;
+  margin: 5rem;
+  font-size: 2.6rem;
+}
+
+.first-mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #FAFAFA;
+  padding: 6rem;
+}
+
+.first-mission .first-mission-text {
+  width: 70%;
+  margin-right: 4rem;
+}
+
+.first-mission .first-mission-text-heading {
+  color: #00aeff;
+  padding: 2rem 0;
+}
+
+.first-mission .first-mission-text-head {
+  margin-top: 2rem;
+  color: #4F4F4F;
+  font-size: 2.2rem;
+  padding-bottom: 3rem;
+}
+
+.first-mission .first-mission-text-paragraph {
+  color: #4F4F4F;
+  margin: 1.2rem 0;
+  text-align: justify;
+}
+
+.first-mission .first-mission-image {
+  display: block;
+}
+
+.first-mission .first-mission-image .mission-button {
+  background-color: #00aeff;
+  font-size: 1rem;
+  height: 3rem;
+  padding: 0 1.8rem;
+  border: 0;
+  margin-top: 1rem;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  color: white;
+}
+
+.contribute {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #4F4F4F;
+  background-color: white;
+}
+
+.contribute .first-contribute {
+  height: 18rem;
+  width: 18rem;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+.contribute .first-contribute .first-contribute-heading {
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+
+.contribute .first-contribute .contribute-hr {
+  width: 45%;
+  height: 0.25rem;
+  background-color: #00aeff;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.contribute .second-contribute {
+  height: 18rem;
+  width: 18rem;
+  padding: 3rem;
+  margin: 3rem;
+  border: 1px solid #949090;
+}
+
+.contribute .second-contribute .second-contribute-paragraph {
+  margin: 4rem 1.6rem;
+  font-size: 1.1rem;
+}
+
+.sponsor-groups {
+  background-color: #FAFAFA;
+  padding: 3rem;
+}
+/*# sourceMappingURL=Mission.css.map */

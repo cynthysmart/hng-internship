@@ -1,0 +1,324 @@
+.first-become {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+    background-color: white;
+
+    .first-become-photo {
+        .image-button {
+            height: 36rem;
+            position: relative;
+            display: inline;
+
+            .first-becomeintern {
+                height: 36rem;            
+            }
+
+            .first-become-button {
+                position: absolute;
+                background-color: #00aeff;
+                color: #ffffff;
+                font-size: 1.5rem;
+                height: 6rem;
+                width: 26.4rem;
+                padding: 0 3rem;
+                border: 0;
+                transition: background-color 0.3s ease-in-out;
+                bottom: 0;
+                right: 0;
+        
+            }
+        }
+        
+        .second-becomeintern {
+            height: 27rem;
+        }
+    }
+
+    .first-become-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 9rem;
+        margin-bottom: 6rem;
+        width: 36%;
+
+        .first-become-heading {
+            font-size: 1.7rem;
+            color: #00AEFF;
+            text-align: center;
+        }
+
+        .first-become-header {
+            font-size: 2.4rem;
+            line-height: 0.2;
+        }
+
+        .first-become-paragraph {
+            font-size: 1.2rem;
+        }
+        
+        .second-become-button {
+            background-color: #00aeff;
+            color: #ffffff;
+            font-size: 1.2rem;
+            height: 4rem;
+            padding: 0 3rem;
+            border: 0;
+            border-radius: 4px;
+            transition: background-color 0.3s ease-in-out;
+        }
+    }
+}
+
+.tracks {
+    background-color: #FAFAFA;
+    margin-top: -5rem;
+    padding-top: 7rem;
+    
+    .track-heading {
+        text-align: center;
+        color: #084482;
+        padding: 3rem;
+        font-size: 2rem;
+    }
+
+    .track-p {
+        text-align: center;
+        font-size: 1.1rem;
+        width: 50%;
+        margin-left: 25%;
+        padding: 1.3rem;
+    }
+
+    .track-divs {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-left: 6rem;
+        margin-left: 0.5rem;
+        padding: 0 5rem 4rem 5rem;
+
+        .learning-track-div {
+            background-color: #ffffff;
+            max-width: 267px;
+            margin: 0.2rem;
+            box-shadow: 0px 3px 12px -1px rgba(28, 52, 84, 0.26), 0px 2px 4px -1px rgba(28, 55, 90, 0.16);
+            text-align: center;
+            padding: 0.4rem;
+            border-radius: 4px;
+            height: 20rem;
+    
+            img {
+                padding-top: 2rem;
+            }
+        
+            .learning-track {
+                font-size: 20px;
+                color: #00aeff;
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+                font-weight: bold;
+            
+            }
+        
+            .learning-paragraph {
+                font-size: 0.9rem;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: 400;
+                line-height: 1.2rem;
+            }
+        }
+    }
+    
+}
+
+.last-become {
+    .first-last-become {
+        background-color: #084482;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        height: 22rem;
+        padding-left: 8rem;
+        padding-right: 35rem;
+        padding-top: 7rem;
+        position: relative;
+    }
+
+    .second-last-become {
+        display: flex;
+        
+
+        .second-last-become-paragraph {
+            width: 24rem;
+            text-align: center;
+            margin: 3rem;
+        }
+
+        .third-becomeintern {
+            width: 27rem;
+            margin-top: -4rem;
+            z-index: 2;
+        }
+
+        .second-last-become-section {
+            height: 32rem;
+            width: 22rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-right: 2rem;
+            margin-top: -16rem;
+            padding: 2rem;
+            z-index: 2;
+            color: #4f4f4f;
+            background-color: #FAFAFA;
+
+            .eighty-nine {
+                width: 12rem;
+                margin: auto;
+            }
+
+            .second-last-become-p {
+                font-size: 1.2rem;
+                margin-top: 2rem;
+                margin-bottom: 3rem;
+                text-align: center;
+            }
+
+            .second-last-become-para {
+                font-size: 0.9rem;
+                font-weight: 400;
+                line-height: 1.2rem;
+            }
+
+            .latest-become {
+                background-color: #084482;
+                color: white;
+                display: flex;
+                justify-content: space-between;
+                padding: 2rem 3rem 2rem 3rem;
+                margin-top: 1rem;
+                width: 20rem;
+
+                .latest-become-text {
+                    font-size: 1rem;
+                    max-width: 80%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .third-last-become {
+        background-color: #FAFAFA;
+        margin: 1rem;
+        text-align: center;
+        padding: 6rem;
+
+        .third-last-become-heading {
+            font-size: 1.8rem;
+            line-height: 1.1em;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .third-last-become-paragraph {
+            font-size: 1.1rem;
+            margin: 1rem;
+            text-align: center;
+            max-width: 60%;
+            margin-left: 20%;
+        }
+
+        .last-become-button {
+            background-color: #00aeff;
+            color: #ffffff;
+            font-size: 1.2rem;
+            height: 3rem;
+            width: 7rem;
+            padding: 0 1.1rem;
+            border: 0;
+            border-radius: 4px;
+            transition: background-color 0.3s ease-in-out;
+            margin: 2rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .first-become {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 2em;
+        background-color: white;
+        width: 100%;
+    }
+
+    .image-button {
+        height: 6rem;
+        position: relative;
+        display: inline;
+        width: 80%;
+
+        .first-becomeintern {
+            height: 1.5rem;   
+            width: 10rem;         
+        }
+
+        .first-become-button {
+            font-size: 0.3rem;
+            height: 0.1rem;
+            width: 1rem;
+            padding: 0 0.2rem;
+    
+        }
+    }
+    
+    .second-becomeintern {
+        padding-top: 6rem;
+        height: 0.08rem;
+        width: 5rem;
+    }
+
+    .first-become-text {
+        display: block;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        width: 90%;
+
+        .first-become-heading {
+            font-size: 1rem;
+            color: #00AEFF;
+            text-align: center;
+        }
+
+        .first-become-header {
+            font-size: 1.6rem;
+            line-height: 0.2;
+        }
+
+        .first-become-paragraph {
+            font-size: 1.2rem;
+        }
+        
+        .second-become-button {
+            background-color: #00aeff;
+            color: #ffffff;
+            font-size: 1.2rem;
+            height: 4rem;
+            padding: 0 3rem;
+            border: 0;
+            border-radius: 4px;
+            transition: background-color 0.3s ease-in-out;
+        }
+    }
+}
+}
+
+

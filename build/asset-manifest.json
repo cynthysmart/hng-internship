@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee82ef84.chunk.css",
+    "main.js": "/static/js/main.db89f876.chunk.js",
+    "main.js.map": "/static/js/main.db89f876.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6736f3a3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6736f3a3.js.map",
+    "static/js/2.933152bc.chunk.js": "/static/js/2.933152bc.chunk.js",
+    "static/js/2.933152bc.chunk.js.map": "/static/js/2.933152bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ee82ef84.chunk.css.map": "/static/css/main.ee82ef84.chunk.css.map",
+    "static/js/2.933152bc.chunk.js.LICENSE.txt": "/static/js/2.933152bc.chunk.js.LICENSE.txt",
+    "static/media/abtone.7281de24.svg": "/static/media/abtone.7281de24.svg",
+    "static/media/About.css": "/static/media/abttwo.2747c06a.svg",
+    "static/media/backend.4920ceab.svg": "/static/media/backend.4920ceab.svg",
+    "static/media/becometwitter.83d7d30d.svg": "/static/media/becometwitter.83d7d30d.svg",
+    "static/media/fifth-about.7ab30774.svg": "/static/media/fifth-about.7ab30774.svg",
+    "static/media/first-about.6c1ebe85.svg": "/static/media/first-about.6c1ebe85.svg",
+    "static/media/firstbecomeintern.04353a5a.jpg": "/static/media/firstbecomeintern.04353a5a.jpg",
+    "static/media/firsthome.82882631.svg": "/static/media/firsthome.82882631.svg",
+    "static/media/firstmission.d5c6c275.png": "/static/media/firstmission.d5c6c275.png",
+    "static/media/fourth-about.3eb7fa2e.svg": "/static/media/fourth-about.3eb7fa2e.svg",
+    "static/media/frontend.4b1b95ba.svg": "/static/media/frontend.4b1b95ba.svg",
+    "static/media/logo.7981dfbc.png": "/static/media/logo.7981dfbc.png",
+    "static/media/machinel.8ef1441c.svg": "/static/media/machinel.8ef1441c.svg",
+    "static/media/missionsponsor.47238c27.png": "/static/media/missionsponsor.47238c27.png",
+    "static/media/scaling.ab4e0bf5.png": "/static/media/scaling.ab4e0bf5.png",
+    "static/media/second-about.5ac3ffc0.svg": "/static/media/second-about.5ac3ffc0.svg",
+    "static/media/secondbecomeintern.159c7301.jpg": "/static/media/secondbecomeintern.159c7301.jpg",
+    "static/media/secondhome.d25a6e20.svg": "/static/media/secondhome.d25a6e20.svg",
+    "static/media/third-about.bbb5202a.svg": "/static/media/third-about.bbb5202a.svg",
+    "static/media/thirdhome.2747c06a.svg": "/static/media/thirdhome.2747c06a.svg",
+    "static/media/twitter.f87d727b.svg": "/static/media/twitter.f87d727b.svg",
+    "static/media/uiux.566f18b6.svg": "/static/media/uiux.566f18b6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6736f3a3.js",
+    "static/js/2.933152bc.chunk.js",
+    "static/css/main.ee82ef84.chunk.css",
+    "static/js/main.db89f876.chunk.js"
+  ]
+}
